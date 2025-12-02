@@ -1,0 +1,14 @@
+#!/bin/bash
+
+BIN=/usr/lib/chromium/chromium
+
+# Cleanup
+if ! pgrep chromium > /dev/null;then
+  rm -f $HOME/.config/chromium/Singleton*
+fi
+
+${BIN} \
+  --no-sandbox \
+  --test-type \
+  --user-data-dir \
+   "$@" > /dev/null 2>&1
