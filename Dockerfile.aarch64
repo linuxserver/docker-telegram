@@ -21,7 +21,7 @@ RUN \
   echo "**** install packages ****" && \
   pacman -Sy --noconfirm \
    chromium \
-   "telegram-desktop${TELEGRAM_VERSION:+=$TELEGRAM_VERSION}" \
+   telegram-desktop \
    webkit2gtk && \
   echo "**** cleanup ****" && \
   printf \

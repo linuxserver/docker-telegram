@@ -52,6 +52,7 @@ body:
       label: CPU architecture
       options:
         - x86-64
+        - arm64
     validations:
       required: true
   - type: textarea
@@ -66,10 +67,10 @@ body:
   - type: textarea
     attributes:
       description: |
-        Provide a full docker log, output of "docker logs signal"
+        Provide a full docker log, output of "docker logs telegram"
       label: Container logs
       placeholder: |
-        Output of `docker logs signal`
+        Output of `docker logs telegram`
       render: bash
     validations:
       required: true

@@ -1,20 +1,20 @@
 ---
 
 # jenkins variables
-project_name: docker-signal
+project_name: docker-telegram
 external_type: na
-custom_version_command: "curl -sL https://mirror.rackspace.com/archlinux/extra/os/x86_64/extra.db | tar tzf - | awk -F '(-|/)' '/signal-desktop/ {print $3; exit}'"
+custom_version_command: "curl -sL https://mirror.rackspace.com/archlinux/extra/os/x86_64/extra.db | tar tzf - | awk -F '(-|/)' '/telegram-desktop/ {print $3; exit}'"
 release_type: stable
 release_tag: latest
 ls_branch: master
 repo_vars:
-  - BUILD_VERSION_ARG = 'SIGNAL_VERSION'
+  - BUILD_VERSION_ARG = 'TELEGRAM_VERSION'
   - LS_USER = 'linuxserver'
-  - LS_REPO = 'docker-signal'
-  - CONTAINER_NAME = 'signal'
-  - DOCKERHUB_IMAGE = 'linuxserver/signal'
-  - DEV_DOCKERHUB_IMAGE = 'lsiodev/signal'
-  - PR_DOCKERHUB_IMAGE = 'lspipepr/signal'
+  - LS_REPO = 'docker-telegram'
+  - CONTAINER_NAME = 'telegram'
+  - DOCKERHUB_IMAGE = 'linuxserver/telegram'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/telegram'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/telegram'
   - DIST_IMAGE = 'arch'
   - MULTIARCH = 'false'
   - CI = 'true'

@@ -1,16 +1,17 @@
 ---
 
 # project information
-project_name: signal
-project_url: "https://signal.org/"
-project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/signal-logo.png"
-project_blurb: "[Signal]({{ project_url }}) is a messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private."
+project_name: telegram
+project_url: "https://telegram.org/"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/telegram-logo.png"
+project_blurb: "[Telegram]({{ project_url }}) is a cloud-based mobile and desktop messaging app."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_blurb_optional_extras_enabled: false
 project_categories: "Chat"
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # development version
 development_versions: false
 # container parameters
@@ -21,8 +22,8 @@ param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores local files and settings"}
 param_usage_include_ports: true
 param_ports:
-  - {external_port: "3000", internal_port: "3000", port_desc: "Signal desktop gui HTTP must be proxied."}
-  - {external_port: "3001", internal_port: "3001", port_desc: "Signal desktop gui HTTPS."}
+  - {external_port: "3000", internal_port: "3000", port_desc: "Telegram desktop gui HTTP must be proxied."}
+  - {external_port: "3001", internal_port: "3001", port_desc: "Telegram desktop gui HTTPS."}
 custom_params:
   - {name: "shm-size", name_compose: "shm_size", value: "1gb", desc: "Recommended for all desktop images."}
 # Selkies blurb settings

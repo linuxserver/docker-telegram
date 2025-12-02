@@ -19,13 +19,13 @@ pipeline {
     DOCKERHUB_TOKEN=credentials('docker-hub-ci-pat')
     QUAYIO_API_TOKEN=credentials('quayio-repo-api-token')
     GIT_SIGNING_KEY=credentials('484fbca6-9a4f-455e-b9e3-97ac98785f5f')
-    BUILD_VERSION_ARG = 'SIGNAL_VERSION'
+    BUILD_VERSION_ARG = 'TELEGRAM_VERSION'
     LS_USER = 'linuxserver'
-    LS_REPO = 'docker-signal'
-    CONTAINER_NAME = 'signal'
-    DOCKERHUB_IMAGE = 'linuxserver/signal'
-    DEV_DOCKERHUB_IMAGE = 'lsiodev/signal'
-    PR_DOCKERHUB_IMAGE = 'lspipepr/signal'
+    LS_REPO = 'docker-telegram'
+    CONTAINER_NAME = 'telegram'
+    DOCKERHUB_IMAGE = 'linuxserver/telegram'
+    DEV_DOCKERHUB_IMAGE = 'lsiodev/telegram'
+    PR_DOCKERHUB_IMAGE = 'lspipepr/telegram'
     DIST_IMAGE = 'arch'
     MULTIARCH = 'false'
     CI = 'true'
@@ -147,7 +147,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sL https://mirror.rackspace.com/archlinux/extra/os/x86_64/extra.db | tar tzf - | awk -F '(-|/)' '/signal-desktop/ {print $3; exit}' ''',
+            script: ''' curl -sL https://mirror.rackspace.com/archlinux/extra/os/x86_64/extra.db | tar tzf - | awk -F '(-|/)' '/telegram-desktop/ {print $3; exit}' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
@@ -583,16 +583,16 @@ pipeline {
         sh "docker buildx build \
           --label \"org.opencontainers.image.created=${GITHUB_DATE}\" \
           --label \"org.opencontainers.image.authors=linuxserver.io\" \
-          --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-signal/packages\" \
-          --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-signal\" \
-          --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-signal\" \
+          --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-telegram/packages\" \
+          --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-telegram\" \
+          --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-telegram\" \
           --label \"org.opencontainers.image.version=${EXT_RELEASE_CLEAN}-ls${LS_TAG_NUMBER}\" \
           --label \"org.opencontainers.image.revision=${COMMIT_SHA}\" \
           --label \"org.opencontainers.image.vendor=linuxserver.io\" \
           --label \"org.opencontainers.image.licenses=GPL-3.0-only\" \
           --label \"org.opencontainers.image.ref.name=${COMMIT_SHA}\" \
-          --label \"org.opencontainers.image.title=Signal\" \
-          --label \"org.opencontainers.image.description=[Signal](https://signal.org/) is a messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.\" \
+          --label \"org.opencontainers.image.title=Telegram\" \
+          --label \"org.opencontainers.image.description=[Telegram](https://telegram.org/) is a cloud-based mobile and desktop messaging app.\" \
           --no-cache --pull -t ${IMAGE}:${META_TAG} --platform=linux/amd64 \
           --provenance=true --sbom=true --builder=container --load \
           --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
@@ -652,16 +652,16 @@ pipeline {
             sh "docker buildx build \
               --label \"org.opencontainers.image.created=${GITHUB_DATE}\" \
               --label \"org.opencontainers.image.authors=linuxserver.io\" \
-              --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-signal/packages\" \
-              --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-signal\" \
-              --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-signal\" \
+              --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-telegram/packages\" \
+              --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-telegram\" \
+              --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-telegram\" \
               --label \"org.opencontainers.image.version=${EXT_RELEASE_CLEAN}-ls${LS_TAG_NUMBER}\" \
               --label \"org.opencontainers.image.revision=${COMMIT_SHA}\" \
               --label \"org.opencontainers.image.vendor=linuxserver.io\" \
               --label \"org.opencontainers.image.licenses=GPL-3.0-only\" \
               --label \"org.opencontainers.image.ref.name=${COMMIT_SHA}\" \
-              --label \"org.opencontainers.image.title=Signal\" \
-              --label \"org.opencontainers.image.description=[Signal](https://signal.org/) is a messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.\" \
+              --label \"org.opencontainers.image.title=Telegram\" \
+              --label \"org.opencontainers.image.description=[Telegram](https://telegram.org/) is a cloud-based mobile and desktop messaging app.\" \
               --no-cache --pull -t ${IMAGE}:amd64-${META_TAG} --platform=linux/amd64 \
               --provenance=true --sbom=true --builder=container --load \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
@@ -714,16 +714,16 @@ pipeline {
             sh "docker buildx build \
               --label \"org.opencontainers.image.created=${GITHUB_DATE}\" \
               --label \"org.opencontainers.image.authors=linuxserver.io\" \
-              --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-signal/packages\" \
-              --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-signal\" \
-              --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-signal\" \
+              --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-telegram/packages\" \
+              --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-telegram\" \
+              --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-telegram\" \
               --label \"org.opencontainers.image.version=${EXT_RELEASE_CLEAN}-ls${LS_TAG_NUMBER}\" \
               --label \"org.opencontainers.image.revision=${COMMIT_SHA}\" \
               --label \"org.opencontainers.image.vendor=linuxserver.io\" \
               --label \"org.opencontainers.image.licenses=GPL-3.0-only\" \
               --label \"org.opencontainers.image.ref.name=${COMMIT_SHA}\" \
-              --label \"org.opencontainers.image.title=Signal\" \
-              --label \"org.opencontainers.image.description=[Signal](https://signal.org/) is a messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.\" \
+              --label \"org.opencontainers.image.title=Telegram\" \
+              --label \"org.opencontainers.image.description=[Telegram](https://telegram.org/) is a cloud-based mobile and desktop messaging app.\" \
               --no-cache --pull -f Dockerfile.aarch64 -t ${IMAGE}:arm64v8-${META_TAG} --platform=linux/arm64 \
               --provenance=true --sbom=true --builder=container --load \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
