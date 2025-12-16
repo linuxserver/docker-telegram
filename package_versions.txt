@@ -735,7 +735,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.0.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.14-1                                alpm                           
-telegram-desktop                                                              6.3.6-1                                 alpm                           
+telegram-desktop                                                              6.3.9-1                                 alpm                           
 texinfo                                                                       7.2-1                                   alpm                           
 tinysparql                                                                    3.10.1-2                                alpm                           
 tomli                                                                         2.0.1                                   python                         
@@ -760,7 +760,7 @@ vulkan-radeon                                                                 1:
 vulkan-tools                                                                  1.4.328.1-1                             alpm                           
 watchdog                                                                      6.0.0                                   python                         
 wayland                                                                       1.24.0-1                                alpm                           
-webkit2gtk                                                                    2.50.3-1                                alpm                           
+webkit2gtk                                                                    2.50.4-1                                alpm                           
 webrtc-audio-processing-1                                                     1.3-5                                   alpm                           
 websockets                                                                    15.0.1                                  python                         
 wheel                                                                         0.45.1                                  python                         
