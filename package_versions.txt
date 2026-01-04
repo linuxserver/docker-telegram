@@ -461,7 +461,7 @@ libgcrypt                                                                     1.
 libglvnd                                                                      1.7.0-3                                 alpm                           
 libgpg-error                                                                  1.58-1                                  alpm                           
 libgudev                                                                      238-3                                   alpm                           
-libheif                                                                       1.21.1-1                                alpm                           
+libheif                                                                       1.21.1-2                                alpm                           
 libice                                                                        1.1.2-1                                 alpm                           
 libidn2                                                                       2.3.8-1                                 alpm                           
 libiec61883                                                                   1.2.0-9                                 alpm                           
