@@ -406,7 +406,7 @@ k8s.io/cri-api                                                                v0
 k8s.io/klog/v2                                                                v2.130.1                                go-module                      
 k8s.io/utils                                                                  v0.0.0-20250604170112-4c0f3b243397      go-module                      
 kbd                                                                           2.9.0-1                                 alpm                           
-kcoreaddons                                                                   6.21.0-2                                alpm                           
+kcoreaddons                                                                   6.22.0-1                                alpm                           
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.77                                 go-module                      
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.77                                 go-module                      
 keyutils                                                                      1.6.3-3                                 alpm                           
@@ -712,7 +712,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.14-1                                alpm                           
-telegram-desktop                                                              6.4.1-1                                 alpm                           
+telegram-desktop                                                              6.4.2-1                                 alpm                           
 texinfo                                                                       7.2-1                                   alpm                           
 tinysparql                                                                    3.10.1-2                                alpm                           
 tomli                                                                         2.0.1                                   python                         
