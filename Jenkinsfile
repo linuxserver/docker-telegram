@@ -27,7 +27,7 @@ pipeline {
     DEV_DOCKERHUB_IMAGE = 'lsiodev/telegram'
     PR_DOCKERHUB_IMAGE = 'lspipepr/telegram'
     DIST_IMAGE = 'arch'
-    MULTIARCH = 'false'
+    MULTIARCH = 'true'
     CI = 'true'
     CI_WEB = 'true'
     CI_PORT = '3001'
