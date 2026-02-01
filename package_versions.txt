@@ -2,7 +2,7 @@ NAME                                                                          VE
 Simple Launcher                                                               1.1.0.14                                binary        (+5 duplicates)  
 abseil-cpp                                                                    20250814.1-1                            alpm                           
 acl                                                                           2.3.2-1                                 alpm                           
-ada                                                                           3.4.1-1                                 alpm                           
+ada                                                                           3.4.2-1                                 alpm                           
 adwaita-cursors                                                               49.0-1                                  alpm                           
 adwaita-fonts                                                                 49.0-2                                  alpm                           
 adwaita-icon-theme                                                            49.0-1                                  alpm                           
@@ -712,7 +712,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.15-1                                alpm                           
-telegram-desktop                                                              6.4.2-2                                 alpm                           
+telegram-desktop                                                              6.4.4-1                                 alpm                           
 texinfo                                                                       7.2-1                                   alpm                           
 tinysparql                                                                    3.10.1-2                                alpm                           
 tomli                                                                         2.4.0                                   python                         
