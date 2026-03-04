@@ -40,7 +40,7 @@ ca-certificates-utils                                                         20
 cairo                                                                         1.18.4-1                                alpm                           
 catatonit                                                                     0.2.1-2                                 alpm                           
 cffi                                                                          2.0.0                                   python                         
-chromium                                                                      145.0.7632.116-1                        alpm                           
+chromium                                                                      145.0.7632.159-1                        alpm                           
 cli                                                                           UNKNOWN                                 binary                         
 cli-32                                                                        UNKNOWN                                 binary                         
 cli-64                                                                        UNKNOWN                                 binary                         
@@ -724,7 +724,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.15-1                                alpm                           
-telegram-desktop                                                              6.6.1-1                                 alpm                           
+telegram-desktop                                                              6.6.2-1                                 alpm                           
 texinfo                                                                       7.2-1                                   alpm                           
 tinysparql                                                                    3.10.1-2                                alpm                           
 tomli                                                                         2.4.0                                   python                         
