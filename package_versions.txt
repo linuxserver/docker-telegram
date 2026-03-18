@@ -79,7 +79,7 @@ evdev                                                                         1.
 expat                                                                         2.7.4-1                               alpm                           
 fakeroot                                                                      1.37.2-1                              alpm                           
 fcft                                                                          3.3.3-1                               alpm                           
-ffmpeg                                                                        2:8.0.1-7                             alpm                           
+ffmpeg                                                                        2:8.1-1                               alpm                           
 fftw                                                                          3.3.10-8                              alpm                           
 file                                                                          5.47-1                                alpm                           
 filesystem                                                                    2025.10.12-1                          alpm                           
@@ -409,7 +409,7 @@ k8s.io/cri-api                                                                v0
 k8s.io/klog/v2                                                                v2.130.1                              go-module                      
 k8s.io/utils                                                                  v0.0.0-20250604170112-4c0f3b243397    go-module                      
 kbd                                                                           2.9.0-1                               alpm                           
-kcoreaddons                                                                   6.23.0-1                              alpm                           
+kcoreaddons                                                                   6.24.0-1                              alpm                           
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.77                               go-module                      
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.77                               go-module                      
 keyutils                                                                      1.6.3-3                               alpm                           
@@ -444,7 +444,7 @@ libcolord                                                                     1.
 libcups                                                                       2:2.4.16-2                            alpm                           
 libdaemon                                                                     0.14-6                                alpm                           
 libdatrie                                                                     0.2.14-1                              alpm                           
-libde265                                                                      1.0.16-2                              alpm                           
+libde265                                                                      1.0.17-2                              alpm                           
 libdecor                                                                      0.2.5-1                               alpm                           
 libdeflate                                                                    1.25-1                                alpm                           
 libdispatch                                                                   6.2.2-1                               alpm                           
@@ -505,7 +505,7 @@ libp11-kit                                                                    0.
 libpcap                                                                       1.10.6-1                              alpm                           
 libpciaccess                                                                  0.18.1-2                              alpm                           
 libpgm                                                                        5.3.128-3                             alpm                           
-libpipewire                                                                   1:1.6.1-1                             alpm                           
+libpipewire                                                                   1:1.6.2-1                             alpm                           
 libplacebo                                                                    7.360.1-1                             alpm                           
 libpng                                                                        1.6.55-1                              alpm                           
 libproxy                                                                      0.5.12-1                              alpm                           
@@ -654,7 +654,7 @@ perl                                                                          5.
 pillow                                                                        12.1.1                                python                         
 pinentry                                                                      1.3.2-2                               alpm                           
 pip                                                                           25.3                                  python                         
-pipewire                                                                      1:1.6.1-1                             alpm                           
+pipewire                                                                      1:1.6.2-1                             alpm                           
 pixelflux                                                                     1.5.9                                 python                         
 pixman                                                                        0.46.4-1                              alpm                           
 pkgconf                                                                       2.5.1-1                               alpm                           
@@ -729,7 +729,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                alpm                           
 tdb                                                                           1.4.15-1                              alpm                           
-telegram-desktop                                                              6.6.3-1                               alpm                           
+telegram-desktop                                                              6.6.4-1                               alpm                           
 texinfo                                                                       7.2-1                                 alpm                           
 tinysparql                                                                    3.10.1-2                              alpm                           
 tomli                                                                         2.4.0                                 python                         
