@@ -671,7 +671,7 @@ pynput                                                                        1.
 pyopenssl                                                                     26.0.0                                python                         
 python                                                                        3.14.3-1                              alpm                           
 python-xlib                                                                   0.33                                  python                         
-qt6-base                                                                      6.11.0-1                              alpm                           
+qt6-base                                                                      6.11.0-2                              alpm                           
 qt6-declarative                                                               6.11.0-1                              alpm                           
 qt6-imageformats                                                              6.11.0-1                              alpm                           
 qt6-svg                                                                       6.11.0-2                              alpm                           
