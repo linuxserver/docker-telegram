@@ -353,8 +353,8 @@ graphene                                                                      1.
 graphite                                                                      1:1.3.14-6                            alpm                           
 grep                                                                          3.12-2                                alpm                           
 groff                                                                         1.24.1-1                              alpm                           
-gsettings-desktop-schemas                                                     50.0-1                                alpm                           
-gsettings-system-schemas                                                      50.0-1                                alpm                           
+gsettings-desktop-schemas                                                     50.1-1                                alpm                           
+gsettings-system-schemas                                                      50.1-1                                alpm                           
 gsm                                                                           1.0.24-1                              alpm                           
 gssdp                                                                         1.6.4-1                               alpm                           
 gst-plugins-bad-libs                                                          1.28.2-1                              alpm                           
@@ -678,7 +678,7 @@ pyopenssl                                                                     26
 python                                                                        3.14.4-1                              alpm                           
 python-xlib                                                                   0.33                                  python                         
 qt6-base                                                                      6.11.0-2                              alpm                           
-qt6-declarative                                                               6.11.0-1                              alpm                           
+qt6-declarative                                                               6.11.0-3                              alpm                           
 qt6-imageformats                                                              6.11.0-1                              alpm                           
 qt6-svg                                                                       6.11.0-2                              alpm                           
 qt6-translations                                                              6.11.0-1                              alpm                           
@@ -726,9 +726,9 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                alpm                           
 tdb                                                                           1.4.15-1                              alpm                           
-telegram-desktop                                                              6.7.5-1                               alpm                           
+telegram-desktop                                                              6.7.6-1                               alpm                           
 texinfo                                                                       7.2-1                                 alpm                           
-tinysparql                                                                    3.11.0-1                              alpm                           
+tinysparql                                                                    3.11.1-1                              alpm                           
 tomli                                                                         2.4.0                                 python                         
 tpm2-tss                                                                      4.1.3-1                               alpm                           
 tslib                                                                         1.24-1                                alpm                           
@@ -749,7 +749,7 @@ vulkan-radeon                                                                 1:
 vulkan-tools                                                                  1.4.341.0-2                           alpm                           
 watchdog                                                                      6.0.0                                 python                         
 wayland                                                                       1.24.0-1                              alpm                           
-webkit2gtk-4.1                                                                2.52.1-1                              alpm                           
+webkit2gtk-4.1                                                                2.52.2-1                              alpm                           
 webrtc-audio-processing-1                                                     1.3-5                                 alpm                           
 websockets                                                                    16.0                                  python                         
 wheel                                                                         0.46.3                                python                         
