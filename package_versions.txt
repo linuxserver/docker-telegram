@@ -42,7 +42,7 @@ ca-certificates-utils                                                         20
 cairo                                                                         1.18.4-1                                alpm                           
 catatonit                                                                     0.2.1-2                                 alpm                           
 cffi                                                                          2.0.0                                   python                         
-chromium                                                                      148.0.7778.215-1                        alpm                           
+chromium                                                                      149.0.7827.53-1                         alpm                           
 cli                                                                           UNKNOWN                                 binary                         
 cli-32                                                                        UNKNOWN                                 binary                         
 cli-64                                                                        UNKNOWN                                 binary                         
@@ -687,7 +687,7 @@ rnnoise                                                                       1:
 rtkit                                                                         0.14-1                                  alpm                           
 rubberband                                                                    4.0.0-2                                 alpm                           
 runc                                                                          1.4.2-1                                 alpm                           
-sdl2-compat                                                                   2.32.68-1                               alpm                           
+sdl2-compat                                                                   2.32.70-1                               alpm                           
 sdl3                                                                          3.4.10-1                                alpm                           
 seatd                                                                         0.9.3-1                                 alpm                           
 sed                                                                           4.10-1                                  alpm                           
@@ -722,7 +722,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.15-1                                alpm                           
-telegram-desktop                                                              6.8.2-4                                 alpm                           
+telegram-desktop                                                              6.9.1-1                                 alpm                           
 texinfo                                                                       7.3-1                                   alpm                           
 tinysparql                                                                    3.11.1-1                                alpm                           
 tomli                                                                         2.4.0                                   python                         
