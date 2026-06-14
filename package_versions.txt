@@ -661,7 +661,7 @@ portaudio                                                                     1:
 procps-ng                                                                     4.0.6-1                                 alpm                           
 prometheus-client                                                             0.25.0                                  python                         
 propcache                                                                     0.5.2                                   python                         
-protobuf                                                                      35.0-1                                  alpm                           
+protobuf                                                                      35.0-2                                  alpm                           
 psmisc                                                                        23.7-2                                  alpm                           
 psutil                                                                        7.2.2                                   python                         
 pulseaudio                                                                    17.0+r98+gb096704c0-1                   alpm                           
@@ -721,7 +721,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.15-1                                alpm                           
-telegram-desktop                                                              6.9.3-1                                 alpm                           
+telegram-desktop                                                              6.9.3-2                                 alpm                           
 texinfo                                                                       7.3-1                                   alpm                           
 tinysparql                                                                    3.11.1-1                                alpm                           
 tomli                                                                         2.4.0                                   python                         
