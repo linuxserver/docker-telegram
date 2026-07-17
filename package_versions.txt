@@ -42,12 +42,13 @@ ca-certificates-utils                                                         20
 cairo                                                                         1.18.4-1                                alpm                           
 catatonit                                                                     0.2.1-2                                 alpm                           
 cffi                                                                          2.1.0                                   python                         
-chromium                                                                      150.0.7871.114-1                        alpm                           
+chromium                                                                      150.0.7871.124-1                        alpm                           
 cli                                                                           UNKNOWN                                 binary                         
 cli-32                                                                        UNKNOWN                                 binary                         
 cli-64                                                                        UNKNOWN                                 binary                         
 cli-arm64                                                                     UNKNOWN                                 binary                         
 cmake                                                                         4.4.0-1                                 alpm                           
+cmark-gfm                                                                     0.29.0.gfm.13-2                         alpm                           
 command-line-arguments                                                        UNKNOWN                                 go-module                      
 containerd                                                                    2.3.2-1                                 alpm                           
 coreutils                                                                     9.11-1                                  alpm                           
@@ -355,9 +356,9 @@ gsettings-desktop-schemas                                                     50
 gsettings-system-schemas                                                      50.1-1                                  alpm                           
 gsm                                                                           1.0.24-1                                alpm                           
 gssdp                                                                         1.6.6-1                                 alpm                           
-gst-plugins-bad-libs                                                          1.28.5-1                                alpm                           
-gst-plugins-base-libs                                                         1.28.5-1                                alpm                           
-gstreamer                                                                     1.28.5-1                                alpm                           
+gst-plugins-bad-libs                                                          1.28.5-2                                alpm                           
+gst-plugins-base-libs                                                         1.28.5-2                                alpm                           
+gstreamer                                                                     1.28.5-2                                alpm                           
 gtest                                                                         1.17.0-2                                alpm                           
 gtk-update-icon-cache                                                         1:4.22.4-1                              alpm                           
 gtk3                                                                          1:3.24.52-1                             alpm                           
@@ -412,7 +413,7 @@ k8s.io/klog/v2                                                                v2
 k8s.io/streaming                                                              v0.36.0                                 go-module                      
 k8s.io/utils                                                                  v0.0.0-20260319190234-28399d86e0b5      go-module     (+1 duplicate)   
 kbd                                                                           2.10.0-1                                alpm                           
-kcoreaddons                                                                   6.27.0-1                                alpm                           
+kcoreaddons                                                                   6.28.0-1                                alpm                           
 kernel.org/pub/linux/libs/security/libcap/cap                                 v1.2.78                                 go-module                      
 kernel.org/pub/linux/libs/security/libcap/psx                                 v1.2.78                                 go-module                      
 keyutils                                                                      1.6.3-4                                 alpm                           
@@ -450,12 +451,11 @@ libdatrie                                                                     0.
 libde265                                                                      1.1.1-1                                 alpm                           
 libdecor                                                                      0.2.5-1                                 alpm                           
 libdeflate                                                                    1.25-1                                  alpm                           
-libdispatch                                                                   6.2.2-1                                 alpm                           
 libdisplay-info                                                               0.3.0-1                                 alpm                           
 libdovi                                                                       3.3.2-2                                 alpm                           
 libdrm                                                                        2.4.134-1                               alpm                           
 libdvdnav                                                                     7.0.0-1                                 alpm                           
-libdvdread                                                                    7.0.1-1                                 alpm                           
+libdvdread                                                                    7.1.0-1                                 alpm                           
 libedit                                                                       20260512_3.1-1                          alpm                           
 libei                                                                         1.6.0-1                                 alpm                           
 libelf                                                                        0.195-1                                 alpm                           
@@ -510,7 +510,7 @@ libpathrs                                                                     0.
 libpcap                                                                       1.10.6-1                                alpm                           
 libpciaccess                                                                  0.19-1                                  alpm                           
 libpgm                                                                        5.3.128-4                               alpm                           
-libpipewire                                                                   1:1.6.7-1                               alpm                           
+libpipewire                                                                   1:1.6.8-1                               alpm                           
 libplacebo                                                                    7.360.1-3                               alpm                           
 libpng                                                                        1.6.58-2                                alpm                           
 libproxy                                                                      0.5.12-1                                alpm                           
@@ -657,7 +657,7 @@ perl                                                                          5.
 pillow                                                                        12.3.0                                  python                         
 pinentry                                                                      1.3.3-1                                 alpm                           
 pip                                                                           26.1.2                                  python                         
-pipewire                                                                      1:1.6.7-1                               alpm                           
+pipewire                                                                      1:1.6.8-1                               alpm                           
 pixelflux                                                                     1.6.4                                   python                         
 pixman                                                                        0.46.4-1                                alpm                           
 pkgconf                                                                       2.5.1-1                                 alpm                           
@@ -728,7 +728,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.15-1                                alpm                           
-telegram-desktop                                                              6.9.3-8                                 alpm                           
+telegram-desktop                                                              7.0.1-1                                 alpm                           
 texinfo                                                                       7.3-1                                   alpm                           
 tinysparql                                                                    3.11.1-1                                alpm                           
 tomli                                                                         2.4.0                                   python                         
@@ -752,7 +752,7 @@ vulkan-tools                                                                  1.
 watchdog                                                                      6.0.0                                   python                         
 wayland                                                                       1.25.0-1                                alpm                           
 wayland-protocols                                                             1.49-1                                  alpm                           
-webkit2gtk-4.1                                                                2.52.5-1                                alpm                           
+webkit2gtk-4.1                                                                2.52.5-2                                alpm                           
 webrtc-audio-processing-1                                                     1.3-5                                   alpm                           
 websockets                                                                    16.1                                    python                         
 wheel                                                                         0.46.3                                  python                         
