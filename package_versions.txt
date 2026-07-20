@@ -452,10 +452,10 @@ libde265                                                                      1.
 libdecor                                                                      0.2.5-1                                 alpm                           
 libdeflate                                                                    1.25-1                                  alpm                           
 libdisplay-info                                                               0.3.0-1                                 alpm                           
-libdovi                                                                       3.3.2-2                                 alpm                           
+libdovi                                                                       3.4.0-1                                 alpm                           
 libdrm                                                                        2.4.134-1                               alpm                           
 libdvdnav                                                                     7.0.0-1                                 alpm                           
-libdvdread                                                                    7.1.0-1                                 alpm                           
+libdvdread                                                                    7.1.1-1                                 alpm                           
 libedit                                                                       20260512_3.1-1                          alpm                           
 libei                                                                         1.6.0-1                                 alpm                           
 libelf                                                                        0.195-1                                 alpm                           
@@ -713,7 +713,7 @@ spice                                                                         0.
 spice-protocol                                                                0.14.5-1                                alpm                           
 spirv-tools                                                                   1:1.4.350.1-1                           alpm                           
 sqlite                                                                        3.53.3-1                                alpm                           
-srt                                                                           1.5.5-1                                 alpm                           
+srt                                                                           1.5.6-1                                 alpm                           
 st                                                                            0.9.3-1                                 alpm                           
 st-debug                                                                      0.9.3-1                                 alpm                           
 startup-notification                                                          0.12-9                                  alpm                           
@@ -721,14 +721,14 @@ stdlib                                                                        go
 stdlib                                                                        go1.26.4-X:nodwarf5                     go-module                      
 stdlib                                                                        go1.26.5-X:nodwarf5                     go-module     (+7 duplicates)  
 sudo                                                                          1.9.17.p2-6                             alpm                           
-svt-av1                                                                       4.1.0-1                                 alpm                           
+svt-av1                                                                       4.2.0-1                                 alpm                           
 systemd                                                                       261.1-1                                 alpm                           
 systemd-libs                                                                  261.1-1                                 alpm                           
 tags.cncf.io/container-device-interface                                       v1.1.0                                  go-module     (+2 duplicates)  
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.15-1                                alpm                           
-telegram-desktop                                                              7.0.1-1                                 alpm                           
+telegram-desktop                                                              7.0.3-1                                 alpm                           
 texinfo                                                                       7.3-1                                   alpm                           
 tinysparql                                                                    3.11.1-1                                alpm                           
 tomli                                                                         2.4.0                                   python                         
