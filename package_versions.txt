@@ -728,7 +728,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.15-1                                alpm                           
-telegram-desktop                                                              7.0.4-1                                 alpm                           
+telegram-desktop                                                              7.0.5-1                                 alpm                           
 texinfo                                                                       7.3-1                                   alpm                           
 tinysparql                                                                    3.11.1-1                                alpm                           
 tomli                                                                         2.4.0                                   python                         
