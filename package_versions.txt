@@ -79,7 +79,7 @@ duktape                                                                       2.
 dunst                                                                         1.13.2-2                                alpm                           
 e2fsprogs                                                                     1.47.4-1                                alpm                           
 elfutils                                                                      0.196-1                                 alpm                           
-enchant                                                                       2.8.17-1                                alpm                           
+enchant                                                                       2.8.18-1                                alpm                           
 evdev                                                                         2.0.0                                   python                         
 expat                                                                         2.8.3-1                                 alpm                           
 fakeroot                                                                      1:1.37.2-3                              alpm                           
@@ -516,7 +516,7 @@ libcolord                                                                     1.
 libcups                                                                       2:2.4.19-1                              alpm                           
 libdaemon                                                                     0.14-6                                  alpm                           
 libdatrie                                                                     0.2.14-1                                alpm                           
-libde265                                                                      1.1.1-1                                 alpm                           
+libde265                                                                      1.1.2-1                                 alpm                           
 libdecor                                                                      0.2.5-1                                 alpm                           
 libdeflate                                                                    1.26-1                                  alpm                           
 libdisplay-info                                                               0.3.0-1                                 alpm                           
@@ -820,7 +820,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module     (+1 duplicate)   
 tar                                                                           1.35-5                                  alpm                           
 tdb                                                                           1.4.15-1                                alpm                           
-telegram-desktop                                                              7.1.4-1                                 alpm                           
+telegram-desktop                                                              7.1.5-1                                 alpm                           
 texinfo                                                                       7.3-1                                   alpm                           
 tinysparql                                                                    3.11.1-1                                alpm                           
 tpm2-tss                                                                      4.2.0-2                                 alpm                           
