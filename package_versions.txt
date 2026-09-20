@@ -45,7 +45,7 @@ cairo                                                                         1.
 catatonit                                                                     0.2.1-2                                 alpm                           
 certifi                                                                       2026.7.22                               python                         
 cffi                                                                          2.1.1                                   python                         
-chromium                                                                      153.0.8010.36-1                         alpm                           
+chromium                                                                      153.0.8010.52-1                         alpm                           
 click                                                                         8.5.0                                   python                         
 cmake                                                                         4.4.3-2                                 alpm                           
 command-line-arguments                                                        UNKNOWN                                 go-module                      
@@ -451,7 +451,7 @@ libcolord                                                                     1.
 libcups                                                                       2:2.4.19-1                              alpm                           
 libdaemon                                                                     0.14-6                                  alpm                           
 libdatrie                                                                     0.2.14-1                                alpm                           
-libde265                                                                      1.1.2-1                                 alpm                           
+libde265                                                                      1.1.3-1                                 alpm                           
 libdecor                                                                      0.2.5-1                                 alpm                           
 libdeflate                                                                    1.26-1                                  alpm                           
 libdisplay-info                                                               0.3.0-1                                 alpm                           
@@ -707,7 +707,7 @@ python-wheel                                                                  0.
 python-xlib                                                                   0.33                                    python                         
 pyyaml                                                                        6.0.3                                   python                         
 qt6-base                                                                      6.11.2-3                                alpm                           
-qt6-declarative                                                               6.11.2-1                                alpm                           
+qt6-declarative                                                               6.11.2-2                                alpm                           
 qt6-imageformats                                                              6.11.2-1                                alpm                           
 qt6-svg                                                                       6.11.2-1                                alpm                           
 qt6-translations                                                              6.11.2-1                                alpm                           
@@ -760,7 +760,7 @@ tdb                                                                           1.
 telegram-desktop                                                              7.2.8-1                                 alpm                           
 texinfo                                                                       7.3-1                                   alpm                           
 tinysparql                                                                    3.11.1-1                                alpm                           
-tlottie                                                                       0.1.0.git1.758c7cb-1                    alpm                           
+tlottie                                                                       1.0.6-1                                 alpm                           
 tpm2-tss                                                                      4.2.0-2                                 alpm                           
 tslib                                                                         1.24-1                                  alpm                           
 ttf-liberation                                                                2.1.5-2                                 alpm                           
@@ -775,7 +775,7 @@ v4l-utils                                                                     1.
 vapoursynth                                                                   79                                      python                         
 vapoursynth                                                                   79-1                                    alpm                           
 vid.stab                                                                      1.1.2-1                                 alpm                           
-vmaf                                                                          3.2.0-1                                 alpm                           
+vmaf                                                                          3.2.1-1                                 alpm                           
 vulkan-icd-loader                                                             1.4.357.0-1                             alpm                           
 vulkan-intel                                                                  1:26.2.2-1                              alpm                           
 vulkan-mesa-implicit-layers                                                   1:26.2.2-1                              alpm                           
