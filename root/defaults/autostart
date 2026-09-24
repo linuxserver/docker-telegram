@@ -1,3 +1,5 @@
 #!/bin/bash
+gio mime x-scheme-handler/http chromium.desktop
+gio mime x-scheme-handler/https chromium.desktop
 
 /usr/bin/Telegram
