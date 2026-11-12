@@ -687,7 +687,7 @@ python-platformdirs                                                           4.
 python-setuptools                                                             1:84.2.1-1                            alpm                           
 python-wheel                                                                  0.48.0-1                              alpm                           
 pyyaml                                                                        6.0.3                                 python                         
-qt6-base                                                                      6.12.0-4                              alpm                           
+qt6-base                                                                      6.12.0-5                              alpm                           
 qt6-declarative                                                               6.12.0-4                              alpm                           
 qt6-imageformats                                                              6.12.0-1                              alpm                           
 qt6-svg                                                                       6.12.0-1                              alpm                           
@@ -701,7 +701,7 @@ rtkit                                                                         0.
 rubberband                                                                    4.0.0-2                               alpm                           
 runc                                                                          1.5.2-1                               alpm                           
 sdl2-compat                                                                   2.32.74-1                             alpm                           
-sdl3                                                                          3.4.18-1                              alpm                           
+sdl3                                                                          3.4.20-1                              alpm                           
 seatd                                                                         0.9.3-1                               alpm                           
 sed                                                                           4.10-2                                alpm                           
 selkies                                                                       2.2.1                                 python                         
@@ -738,7 +738,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.1                                go-module     (+1 duplicate)   
 tar                                                                           1.35-5                                alpm                           
 tdb                                                                           1.4.15-2                              alpm                           
-telegram-desktop                                                              7.4.1-2                               alpm                           
+telegram-desktop                                                              7.4.2-1                               alpm                           
 texinfo                                                                       7.3-3                                 alpm                           
 tinysparql                                                                    3.12.0-1                              alpm                           
 tlottie                                                                       1.0.6-1                               alpm                           
