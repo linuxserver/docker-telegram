@@ -346,7 +346,7 @@ gupnp-igd                                                                     1.
 gzip                                                                          1.15-1                                alpm                           
 h11                                                                           0.16.0                                python                         
 harfbuzz                                                                      15.1.0-1                              alpm                           
-harfbuzz-icu                                                                  15.1.0-1                              alpm                           
+harfbuzz-icu                                                                  15.2.0-1                              alpm                           
 hicolor-icon-theme                                                            0.18-1                                alpm                           
 hidapi                                                                        0.15.0-1                              alpm                           
 highway                                                                       1.4.0-1                               alpm                           
