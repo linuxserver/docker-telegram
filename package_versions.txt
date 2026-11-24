@@ -43,7 +43,7 @@ cairo                                                                         1.
 catatonit                                                                     0.2.1-2                               alpm                           
 certifi                                                                       2026.10.23                            python                         
 cffi                                                                          2.1.1                                 python                         
-chromium                                                                      158.0.8127.36-2                       alpm                           
+chromium                                                                      158.0.8127.88-1                       alpm                           
 click                                                                         8.5.1                                 python                         
 cmake                                                                         4.5.1-1                               alpm                           
 command-line-arguments                                                        UNKNOWN                               go-module                      
@@ -713,7 +713,7 @@ shadow                                                                        4.
 shared-mime-info                                                              2.5.1-2                               alpm                           
 sigs.k8s.io/json                                                              v0.0.0-20250730193827-2d320260d730    go-module     (+1 duplicate)   
 sigs.k8s.io/yaml                                                              v1.6.0                                go-module     (+1 duplicate)   
-simdutf                                                                       9.3.0-1                               alpm                           
+simdutf                                                                       9.3.1-1                               alpm                           
 snappy                                                                        1.3.1-1                               alpm                           
 sndio                                                                         1.11.0-1                              alpm                           
 source-highlight                                                              3.1.9-19                              alpm                           
@@ -739,7 +739,7 @@ tags.cncf.io/container-device-interface                                       v1
 tags.cncf.io/container-device-interface/specs-go                              v1.1.1                                go-module     (+1 duplicate)   
 tar                                                                           1.35-5                                alpm                           
 tdb                                                                           1.4.15-2                              alpm                           
-telegram-desktop                                                              7.4.4-2                               alpm                           
+telegram-desktop                                                              7.4.6-1                               alpm                           
 texinfo                                                                       7.3-3                                 alpm                           
 tinysparql                                                                    3.12.0-1                              alpm                           
 tlottie                                                                       1.0.6-1                               alpm                           
